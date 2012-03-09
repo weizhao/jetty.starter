@@ -1,0 +1,27 @@
+http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty
+
+jetty.group 
+	-- <packaging>pom</packaging>
+	jetty.group.hello [maven module]
+		-- <parent>jetty.group</parent
+	jetty.group.server [maven module]
+		-- <parent>jetty.group</parent
+	jetty.group.weapp [maven module]
+		-- <parent>jetty.group</parent>
+		
+		
+jetty.group.server
+run JettyServer
+load http://localhost:8080/
+
+run FileServerXml
+load http://localhost:8080/		
+
+run OneContext
+load http://localhost:8080/hello
+
+run OneServletContext 		
+load http://localhost:8080/servlet
+
+run OneWebAppUnassembled
+http://localhost:8080/untest/

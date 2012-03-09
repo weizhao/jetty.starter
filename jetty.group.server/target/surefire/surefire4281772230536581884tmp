@@ -1,0 +1,5 @@
+#surefire
+#Thu Mar 08 23:20:07 EST 2012
+user.dir=C\:\\Users\\Wei\\xJetty\\jetty.group\\jetty.group.server
+localRepository=C\:\\Users\\Wei\\.m2\\repository
+basedir=C\:\\Users\\Wei\\xJetty\\jetty.group\\jetty.group.server

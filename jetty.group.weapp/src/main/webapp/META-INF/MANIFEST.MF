@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: jesse
+Build-Jdk: 1.6.0_26
+Bundle-ClassPath: .,WEB-INF/classes
+Tool: Bnd-1.15.0
+Bundle-Name: Test :: Jetty Test Webapp
+Bundle-Localization: plugin
+Web-ContextPath: /
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Copyright: Copyright (c) 2008-2009 Mort Bay Consulting Pty. Ltd.
+Bundle-Vendor: Eclipse Jetty Project
+Bundle-Version: 7.6.1.v20120215
+Bnd-LastModified: 1329338687636
+Bundle-ManifestVersion: 2
+Bundle-Description: Administrative parent pom for Jetty modules
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0, http://www
+ .eclipse.org/org/documents/epl-v10.php
+Import-Package: javax.servlet;version="[2.5,3)",javax.servlet.http;ver
+ sion="[2.5,3)",javax.servlet.jsp,javax.servlet.jsp.tagext,org.eclipse
+ .jetty.continuation;version="[7.6,8)",org.eclipse.jetty.servlets;vers
+ ion="[7.6,8)",org.eclipse.jetty.util;version="[7.6,8)",org.eclipse.je
+ tty.util.log;version="[7.6,8)",org.eclipse.jetty.websocket;version="[
+ 7.6,8)"
+Bundle-SymbolicName: org.eclipse.jetty.test-jetty-webapp
+Bundle-DocURL: http://www.eclipse.org/jetty
+

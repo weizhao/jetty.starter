@@ -8,10 +8,10 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>wei.zhao</groupId>
-  <artifactId>jetty.group.hello</artifactId>
+  <artifactId>jetty.group.weapp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>jetty.group.hello Maven Webapp</name>
+  <name>jetty.group.weapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -22,7 +22,6 @@
     </dependency>
   </dependencies>
   <build>
-   <finalName>jetty.group.hello</finalName>
-
+    <finalName>jetty.group.weapp</finalName>
   </build>
 </project>
