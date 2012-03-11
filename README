@@ -25,3 +25,7 @@ load http://localhost:8080/servlet
 
 run OneWebAppUnassembled
 http://localhost:8080/untest/
+
+clone repository
+delete project in eclipse if imported
+import as maven project
